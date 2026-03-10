@@ -14,11 +14,9 @@ def login_seguro(username, password):
         "usuario": "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
     }
     
-    print(variable_no_definida)  # ERROR: variable no definida
-    
     if username in users_db:
         if users_db[username] == hash_password(password):
-            return True
+             True
     return False
 
 if __name__ == "__main__":
