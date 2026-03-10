@@ -16,7 +16,7 @@ def login_seguro(username, password):
     
     if username in users_db:
         if users_db[username] == hash_password(password):
-             True
+            return True
     return False
 
 if __name__ == "__main__":
