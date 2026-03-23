@@ -46,6 +46,6 @@ app.get('/metrics', async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`✅ Servidor corriendo en http://localhost:${PORT}`);
+  console.log(`✅ Servidor corriendooooo en http://localhost:${PORT}`);
   console.log(`📊 Métricas disponibles en http://localhost:${PORT}/metrics`);
 });
